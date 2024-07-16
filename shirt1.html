@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/G.png" type="image/svg+xml">
+    <title>Grazie Outifts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="images/Banner/logoo.png" style="height: 12vh;" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" ="shop.html">Shop</a></li>
+                <li><a href="return.html">Exchange Policy</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x-circle'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="images/product/shirt1.png" width="100%" id="MainImg" alt="">
+
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="images/product/shirt1.png" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/product/shirt2.png" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/product/shirt3.png" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/product/shirt4.png" width="100%" class="small-img" alt="">
+            </div>
+
+        </div>
+    </div>
+        <div class="single-pro-details">
+            <h4>Hawaiian Shirt</h4>
+            <h2>Rs-2399</h2>
+            <select>
+                <option>Select Size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+          <a href="https://form.jotform.com/241912684635058"> <button class="normal">Buy Now</button>
+            <p>Product Details</p></a>
+            <span>
+                Material: 100% pure cotton lawn</br>
+                Weave: Fine, lightweight, and breathable</br>
+                Feel: Soft and smooth texture, providing comfort and ease.</br>
+                Fit: Available in various sizes for a comfortable fit</br>
+                Style: Modern cuts with classic elements, such as straight or A-line cuts</br>
+                Neckline: Variety of necklines such as round, V-neck, or collar styles</br>
+                Sleeves: Options for full, half, or sleeveless designs</span>
+        </div>
+    </section>
+   
+
+
+<footer style="background-color: #146d6170;" class="section-p1">
+    <div class="col">
+        <img class="logo" src="images/logo (1).pn" alt="">
+        <h4 style="font-size: 2rem; margin-top: -35px;">Contact</h4>
+        <p><strong>Address:</strong> New Abadi Bhara Kho Islamabad-Pak.</p>
+        <p><strong>Email:</strong> Grazieoutfits@gmail.com</p>
+        <p><strong>Phone:</strong> +92 318-6831-156 / +92 318-0095-755</p>
+    <p><strong>Hours:</strong> 24/7, mon -sat, sunday off</p>
+
+    
+    <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+            <i class='bx bxl-facebook' style='color:#000000' ></i>
+            <i class='bx bxl-instagram' style='color:#000000' ></i>
+            <i class='bx bxl-whatsapp' style='color:#030303' ></i>
+            <i class='bx bxl-twitter' style='color:#000000' ></i> 
+        </div>
+     </div>
+</div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="index.html">Home</a>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Webiste</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    <div class="copyright">
+        <p>Grazie Outfits &copy by 2024.</p>
+    </div>
+    </footer>
+<script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+    }
+</script>
+
+    <script src="script.js"></script>   
+</body>
+</html>
