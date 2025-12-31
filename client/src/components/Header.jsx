@@ -70,9 +70,8 @@ function Header() {
             sx={{ 
               flexGrow: 1, 
               textDecoration: 'none', 
-              color: 'inherit',
-              fontWeight: 'bold',
-              color: theme.palette.primary.main
+              color: theme.palette.primary.main,
+              fontWeight: 'bold'
             }}
           >
             Grazie Outfits
