@@ -1,0 +1,38 @@
+{
+  "name": "grazieoutfits",
+  "version": "1.0.0",
+  "description": "Grazie Outfits - MERN Stack E-commerce Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "server:dev": "nodemon server/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "build": "npm run build --prefix client",
+    "install:all": "npm install && npm install --prefix client"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Grazie Outfits",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.12"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
